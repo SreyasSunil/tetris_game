@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.gridContainer {
+    display: flex;
+}
+
+.button_score_container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button_score_container h3 {
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button_score_container button {
+    font-size: 18px;
+    padding: 8px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid,
+.mini-grid {
+    border: 2px solid grey;
+    padding: 10px;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.grid div,
+.mini-grid div {
+
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.4) inset;
+}
+
+.tetromino {
+    box-shadow: 0px 0px 1px 1px rgba(228, 216, 216, 0.4) inset !important;
+}
+
+.taken {
+    box-shadow: none !important;
+}
+
+.mini-grid {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+    margin-left: 50px;
+}
+
+.mini-grid div {
+    width: 20px;
+    height: 20px;
+}
